@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testproj" parallel="false">
+    <test name="testDemo1">
+        <!--<packages>-->
+        <!--<package name="com.testproj.Demo"/>-->
+        <!--</packages>-->
+        <classes>
+            <class name="testcase.TestDemo"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="listener.ExtentTestNGIReporterListener"></listener>
+        <!--<listener class-name="test.sen.example.ExtentTestNGITestListener"></listener>-->
+    </listeners>
+</suite>
